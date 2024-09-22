@@ -38,7 +38,6 @@ class TodoList extends Component
             session()->flash('Error', 'Failed to delete todo');
             return;
         }
-
     }
 
     public function getTodo($todoID)
